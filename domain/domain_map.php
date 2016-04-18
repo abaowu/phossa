@@ -1,0 +1,28 @@
+<?php
+/**
+ * Phossa Project
+ *
+ * PHP version 5.4
+ *
+ * @category  Library
+ * @package   Phossa\Phossa
+ * @copyright 2015 phossa.com
+ * @license   http://mit-license.org/ MIT License
+ * @link      http://www.phossa.com/
+ */
+/*# declare(strict_types=1); */
+
+/*
+ * automatical mapping is done by checking $_SERVER['SERVER_NAME']
+ * unless explicitly set here.
+ *
+ * auto mapping:
+ *  [*.]example.com => example.com
+ *
+ * Manual mapping:
+ *  [*.]test.com    => example.com
+ */
+return [
+    // redirect [*.]test.com to example.dom
+    //'test.com'      => 'example.com',
+];
