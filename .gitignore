@@ -1,14 +1,21 @@
 # vendor dir
-/vendor
+/vendor/*
+!/vendor/.htaccess
 
 # zend studio
 /.settings
 /.project
 /.buildpath
-/.externalToolBuilders
+
+# config
+.env*
+!.env.example
+
+# temp stuff
+/tmpdir
 
 # composer stuff
 composer.lock
 
 # rsync stuff
-.rsync
+/.rsync
