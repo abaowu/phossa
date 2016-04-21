@@ -1,2 +1,5 @@
-# ignore production configs
-/production
+#
+# ignore config files
+#
+/*
+!.htaccess
