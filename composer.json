@@ -1,7 +1,21 @@
 {
     "name": "phossa/phossa",
+    "type": "library",
+    "homepage": "https://github.com/phossa/phossa",
+    "description": "A PHP framework",
+    "authors": [ {
+        "name": "Hong Zhang",
+        "homepage": "https://github.com/phossa"
+    } ],
+    "license": "MIT",
+    "keywords": [ "phossa", "framework", "php" ],
     "require": {
         "php": ">=5.4.0",
-        "phossa/phossa-shared": "*"
+        "phossa/phossa-config": "^1.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phossa\\Phossa\\": "src/Phossa/Phossa/"
+        }
     }
 }
