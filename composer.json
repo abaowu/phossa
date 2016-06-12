@@ -12,7 +12,12 @@
     "require": {
         "php": ">=5.4.0",
         "phossa/phossa-di": "dev-master",
-        "phossa/phossa-logger": "dev-master"
+        "phossa/phossa-logger": "dev-master",
+        "phossa/phossa-cache": "dev-master",
+        "phossa/phossa-event": "dev-master",
+        "phossa/phossa-route": "dev-master",
+        "phossa/phossa-db": "dev-master",
+        "phossa/phossa-query": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {
