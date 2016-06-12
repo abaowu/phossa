@@ -11,8 +11,9 @@
     "keywords": [ "phossa", "framework", "php" ],
     "require": {
         "php": ">=5.4.0",
-        "phossa/phossa-di": "master"
+        "phossa/phossa-di": "dev-master"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Phossa\\Phossa\\": "src/Phossa/Phossa/"
