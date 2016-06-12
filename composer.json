@@ -11,7 +11,8 @@
     "keywords": [ "phossa", "framework", "php" ],
     "require": {
         "php": ">=5.4.0",
-        "phossa/phossa-di": "dev-master"
+        "phossa/phossa-di": "dev-master",
+        "phossa/phossa-logger": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {
